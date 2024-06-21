@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --cream: #f6f6f6;
+  --gray: #cbcbcb;
+  --black: #131212;
+  --brown: #b6a179;
+  --blue: #6389cb;
+  --yellow: #f2c758;
+  --white: #ffffff;
+  --red: #ff0000;
+}
+
+body {
+  background: var(--cream);
+  color: var(--black);
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

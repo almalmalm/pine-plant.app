@@ -8,9 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        gray: 'var(--gray)',
+        black: 'var(--black)',
+        brown: 'var(--brown)',
+        blue: 'var(--blue)',
+        yellow: 'var(--yellow)',
+        white: 'var(--white)',
+        red: 'var(--red)',
+      },
+      gridTemplateColumns: {
+        sizeSelector: 'repeat(5, 3.5rem)',
       },
     },
   },

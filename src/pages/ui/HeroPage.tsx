@@ -1,13 +1,11 @@
-import { Menu } from '@/widgets/ui/Menu';
-import Image from 'next/image';
-
-//TODO: Add Image to FSD
+import { Header } from '@/widgets/header/ui';
+import { Product, SizeSelector } from '@/widgets/product/ui';
 
 export default function HeroPage() {
   return (
-    <>
-      <Menu />
-      <Image src="/nike_uptempo.webp" alt="sneakers" width={500} height={500} />
-    </>
+    <div className="mt-16 ml-32 mr-32">
+      <Header />
+      <Product />
+    </div>
   );
 }
