@@ -1,4 +1,4 @@
-import { SizeSquare } from '@/shared/ui';
+import { SizeSquare } from '@/shared';
 import React from 'react';
 
 const sizes = [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5];

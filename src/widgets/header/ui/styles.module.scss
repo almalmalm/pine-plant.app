@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userActions {
+  display: flex;
+  gap: 2rem;
+  align-items: end;
+}

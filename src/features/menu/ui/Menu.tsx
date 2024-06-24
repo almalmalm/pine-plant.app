@@ -1,9 +1,9 @@
-import { NikeLogo } from '@/shared/icons/NikeLogo';
-import { MenuTab } from '@/shared/ui/MenuTab';
+import { MenuTab } from '@/shared';
+import styles from './styles.module.scss';
 
 export const Menu: React.FC = () => {
   return (
-    <div className="flex gap-10 font-bold text-2xl uppercase">
+    <div className={styles.menu}>
       <MenuTab title="New Releases" href="/new-releases" />
       <MenuTab title="MEN" href="/men" />
       <MenuTab title="WoMEN" href="/women" />

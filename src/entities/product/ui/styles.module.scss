@@ -1,0 +1,33 @@
+.category {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  position: relative;
+  left: -1rem;
+  top: 1rem;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 72px;
+  text-transform: uppercase;
+  line-height: 4.5rem;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--gray);
+  position: relative;
+  bottom: 1rem;
+}
+
+.container {
+  max-width: 550px;
+}
+
+.image {
+  position: relative;
+  top: -6rem;
+  left: -20rem;
+}

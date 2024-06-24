@@ -1,9 +1,9 @@
-import { ColorCircle } from '@/shared';
 import React from 'react';
+import { ColorCircle } from '@/shared';
 
 const colors = ['bg-red', 'bg-black', 'bg-yellow'];
 
-export const ColorSelector = () => {
+export const SelectColor = () => {
   return (
     <div>
       <span className="text-2xl uppercase font-bold">Select Color</span>
