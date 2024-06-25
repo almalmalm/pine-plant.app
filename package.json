@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "npx playwright test"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
@@ -16,12 +17,12 @@
     "react-redux": "^9.1.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.45.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
-    "playwright": "^1.45.0",
     "postcss": "^8",
     "sass": "^1.77.6",
     "tailwindcss": "^3.4.1",
