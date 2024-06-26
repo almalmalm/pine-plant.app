@@ -20,4 +20,5 @@
 - roles
 - theme
 - market
+- payment systems integration
 - 3d color product customizing
